@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codelabs.pdam">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:fullBackupOnly="false"
+        android:icon="@mipmap/ic_pdam"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_pdam_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PDAM"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".page.ChooseUkuran"
+            android:exported="false" />
+        <activity
+            android:name=".page.ChooseGolongan"
+            android:exported="false" />
+        <activity
+            android:name=".page.HistoryDetail"
+            android:exported="false" />
+        <activity
+            android:name=".page.History"
+            android:exported="false" />
+        <activity
+            android:name=".page.CustomerInformationDetail"
+            android:exported="false" />
+        <activity
+            android:name=".page.CustomerInformation"
+            android:exported="false" />
+        <activity
+            android:name=".page.PdamInformationDetail"
+            android:exported="false" />
+        <activity
+            android:name=".page.PdamInformation"
+            android:exported="false" />
+        <activity
+            android:name=".page.ChooseSertifikat"
+            android:exported="false" />
+        <activity
+            android:name=".page.ChooseKecamatan"
+            android:exported="false" />
+        <activity
+            android:name=".page.ChooseKabupaten"
+            android:exported="false" />
+        <activity
+            android:name=".page.ChooseProvince"
+            android:exported="false" />
+        <activity
+            android:name=".page.NewInstallation"
+            android:exported="false" />
+        <activity
+            android:name=".page.ReadMeterFinished"
+            android:exported="false" />
+        <activity
+            android:name=".page.ReadMeterNotFinished"
+            android:exported="false" />
+        <activity
+            android:name=".page.BacaMeter"
+            android:exported="false" />
+        <activity
+            android:name=".page.NameCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".page.EComplain"
+            android:exported="false" />
+        <activity
+            android:name=".page.ChangePasswordSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".page.ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".page.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".page.VerificationSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".page.SetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".page.EmailVerification"
+            android:exported="false" />
+        <activity
+            android:name=".page.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".page.Login"
+            android:exported="false" />
+        <activity
+            android:name=".page.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".page.MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

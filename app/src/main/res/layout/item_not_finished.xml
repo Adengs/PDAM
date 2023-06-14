@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_text_input"
+    android:layout_marginVertical="@dimen/_8sdp"
+    android:paddingHorizontal="@dimen/_15sdp"
+    android:paddingVertical="@dimen/_10sdp"
+    android:id="@+id/lay_data_nf">
+
+    <LinearLayout
+        android:id="@+id/lay_name_cust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name_cust"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/name_cust"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            app:cardBackgroundColor="@color/red_opacity"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="0dp">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingHorizontal="@dimen/_9sdp"
+                android:paddingVertical="@dimen/_3sdp"
+                android:text="@string/not_finish"
+                android:textColor="@color/red"
+                android:textSize="@dimen/_8sdp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_name_cust"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/id_examples"
+        android:textColor="@color/blue_pdam"
+        android:textSize="@dimen/_10sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id"
+        android:layout_marginTop="@dimen/_7sdp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ic_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location"
+            android:layout_marginTop="@dimen/_3sdp"/>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/location"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/_10sdp" />
+
+        <ImageView
+            android:id="@+id/ic_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_next"
+            android:layout_marginTop="@dimen/_3sdp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

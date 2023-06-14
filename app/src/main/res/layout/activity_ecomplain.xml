@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".page.EComplain"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/lay_back"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginHorizontal="@dimen/_7sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:padding="@dimen/_6sdp"
+            android:src="@drawable/ic_back"
+            app:tint="@color/black" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lay_back">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:paddingBottom="@dimen/_20sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_horizontal"
+                android:text="@string/ecomplain"
+                android:textColor="@color/blue_pdam"
+                android:textSize="@dimen/_22sdp" />
+
+
+            <ImageView
+                android:layout_width="@dimen/_220sdp"
+                android:layout_height="@dimen/_230sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/char_ecomplain" />
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:gravity="center"-->
+<!--                android:text="@string/text_newpass"-->
+<!--                android:textColor="@color/grey"-->
+<!--                android:textSize="@dimen/_11sdp" />-->
+
+            <RelativeLayout
+                android:id="@+id/lay_name_cust"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                app:layout_constraintTop_toBottomOf="@+id/username">
+
+                <EditText
+                    android:id="@+id/name_cust"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/bg_text_input"
+                    android:fontFamily="@font/poppins_regular"
+                    android:hint="@string/name_customer"
+                    android:paddingVertical="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_15sdp"
+                    android:paddingEnd="0dp"
+                    android:textColor="@color/semi_black"
+                    android:textColorHint="@color/semi_black"
+                    android:textSize="@dimen/_12sdp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:clickable="true"/>
+
+                <ImageView
+                    android:id="@+id/ic_name_cust"
+                    android:layout_width="@dimen/_7sdp"
+                    android:layout_height="@dimen/_11sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:src="@drawable/ic_next" />
+
+            </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/et_subject"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_text_input"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="@string/subject"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingVertical="@dimen/_10sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="0dp"
+                android:textColor="@color/semi_black"
+                android:textColorHint="@color/grey_sub"
+                android:textSize="@dimen/_12sdp"
+                tools:ignore="TextFields" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_77sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/bg_text_input">
+
+                <EditText
+                    android:id="@+id/et_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="top"
+                    android:hint="@string/desc"
+                    android:imeOptions="flagNoExtractUi"
+                    android:inputType="text|textMultiLine"
+                    android:paddingVertical="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_15sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:singleLine="false"
+                    android:textColor="@color/semi_black"
+                    android:textColorHint="@color/grey_sub"
+                    android:textSize="@dimen/_12sdp"
+                    tools:ignore="TextFields" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:background="@drawable/bg_btn"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="@string/send"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

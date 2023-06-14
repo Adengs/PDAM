@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".page.CustomerInformationDetail">
+
+    <RelativeLayout
+        android:id="@+id/lay_back"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_8sdp"
+            android:src="@drawable/ic_back"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/cust_information"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lay_back">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/lay_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginVertical="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/bg_text_input"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/lay_name_cust"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/name_cust"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        tools:text="@string/name_cust"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <TextView
+                        android:id="@+id/id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:fontFamily="@font/poppins_regular"
+                        tools:text="@string/id_examples"
+                        android:textColor="@color/blue_pdam"
+                        android:textSize="@dimen/_10sdp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lay_name_cust"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/_10sdp"
+                    tools:text="@string/phone_examples" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phone"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:gravity="top"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_location"
+                        android:layout_marginTop="@dimen/_3sdp"/>
+
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_6sdp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        tools:text="@string/location"
+                        android:textColor="@color/grey"
+                        android:textSize="@dimen/_10sdp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+<!--            <TextView-->
+<!--                android:id="@+id/account_bank"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_20sdp"-->
+<!--                android:fontFamily="@font/poppins_medium"-->
+<!--                android:text="@string/bank_account"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="@dimen/_12sdp"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/lay_header" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/name_cust_bank"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_10sdp"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:text="@string/bank_account_name"-->
+<!--                android:textColor="@color/semi_black"-->
+<!--                android:textSize="@dimen/_10sdp"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/account_bank" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/et_name_cust_bank"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_35sdp"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:background="@drawable/bg_text_input"-->
+<!--                android:focusable="false"-->
+<!--                android:focusableInTouchMode="false"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:inputType="text"-->
+<!--                android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                android:paddingVertical="@dimen/_10sdp"-->
+<!--                android:textColor="@color/grey_sub"-->
+<!--                android:textColorHint="@color/grey_sub"-->
+<!--                android:textSize="@dimen/_10sdp"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/name_cust_bank" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/no_rekening"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_10sdp"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:text="@string/no_rekening"-->
+<!--                android:textColor="@color/semi_black"-->
+<!--                android:textSize="@dimen/_10sdp"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/et_name_cust_bank" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/et_no_rekening"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_35sdp"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:background="@drawable/bg_text_input"-->
+<!--                android:focusable="false"-->
+<!--                android:focusableInTouchMode="false"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:inputType="text"-->
+<!--                android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                android:paddingVertical="@dimen/_10sdp"-->
+<!--                android:textColor="@color/grey_sub"-->
+<!--                android:textColorHint="@color/grey_sub"-->
+<!--                android:textSize="@dimen/_10sdp"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/no_rekening" />-->
+
+            <TextView
+                android:id="@+id/location_installation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/location_installation"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                app:layout_constraintTop_toBottomOf="@+id/lay_header" />
+
+            <TextView
+                android:id="@+id/choose_province"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/choose_province"
+                android:textColor="@color/semi_black"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/location_installation" />
+
+            <EditText
+                android:id="@+id/et_province"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_text_input"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/poppins_regular"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingVertical="@dimen/_10sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textColor="@color/grey_sub"
+                android:textColorHint="@color/grey_sub"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/choose_province"
+                tools:layout_editor_absoluteX="19dp" />
+
+            <TextView
+                android:id="@+id/choose_kabupaten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/choose_kabupaten"
+                android:textColor="@color/semi_black"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/et_province" />
+
+            <EditText
+                android:id="@+id/et_kabupaten"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_text_input"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/poppins_regular"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingVertical="@dimen/_10sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textColor="@color/grey_sub"
+                android:textColorHint="@color/grey_sub"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/choose_kabupaten"
+                tools:layout_editor_absoluteX="19dp" />
+
+            <TextView
+                android:id="@+id/choose_kecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/choose_kecamatan"
+                android:textColor="@color/semi_black"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/et_kabupaten" />
+
+            <EditText
+                android:id="@+id/et_kecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_text_input"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:fontFamily="@font/poppins_regular"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingVertical="@dimen/_10sdp"
+                android:paddingStart="@dimen/_15sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textColor="@color/grey_sub"
+                android:textColorHint="@color/grey_sub"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/choose_kecamatan"
+                tools:layout_editor_absoluteX="19dp" />
+
+            <TextView
+                android:id="@+id/pos_code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/pos_code"
+                android:textColor="@color/semi_black"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/et_kecamatan" />
+
+            <EditText
+                android:id="@+id/et_pos_code"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_text_input"
+                android:fontFamily="@font/poppins_regular"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:textColor="@color/grey_sub"
+                android:textColorHint="@color/grey_sub"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/pos_code"
+                android:focusable="false"
+                android:focusableInTouchMode="false"/>
+
+            <TextView
+                android:id="@+id/addresses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/addresses"
+                android:textColor="@color/semi_black"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/et_pos_code" />
+
+            <EditText
+                android:id="@+id/et_addresses"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/bg_text_input"
+                android:fontFamily="@font/poppins_regular"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingHorizontal="@dimen/_15sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                android:textColor="@color/grey_sub"
+                android:textColorHint="@color/grey_sub"
+                android:textSize="@dimen/_10sdp"
+                app:layout_constraintTop_toBottomOf="@+id/addresses"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="@dimen/_15sdp"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/text_nik"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_10sdp"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:text="@string/NIK"-->
+<!--                android:textColor="@color/semi_black"-->
+<!--                android:textSize="@dimen/_10sdp"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/et_addresses" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/et_nik"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_35sdp"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:background="@drawable/bg_text_input"-->
+<!--                android:focusable="false"-->
+<!--                android:focusableInTouchMode="false"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:inputType="text"-->
+<!--                android:paddingVertical="@dimen/_10sdp"-->
+<!--                android:paddingStart="@dimen/_15sdp"-->
+<!--                android:paddingEnd="@dimen/_10sdp"-->
+<!--                android:textColor="@color/grey_sub"-->
+<!--                android:textColorHint="@color/grey_sub"-->
+<!--                android:textSize="@dimen/_10sdp"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/text_nik"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                android:layout_marginBottom="@dimen/_15sdp"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/luas_tanah"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_10sdp"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:text="@string/luas_tanah"-->
+<!--                android:textColor="@color/semi_black"-->
+<!--                android:textSize="@dimen/_10sdp"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/et_nik" />-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_luas_lebar"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:orientation="horizontal"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/luas_tanah">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/et_luas"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="@dimen/_35sdp"-->
+<!--                    android:layout_marginEnd="@dimen/_8sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@drawable/bg_text_input"-->
+<!--                    android:fontFamily="@font/poppins_regular"-->
+<!--                    android:imeOptions="actionNext"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                    android:paddingVertical="@dimen/_10sdp"-->
+<!--                    android:textColor="@color/grey_sub"-->
+<!--                    android:textColorHint="@color/grey_sub"-->
+<!--                    android:textSize="@dimen/_10sdp"-->
+<!--                    android:focusable="false"-->
+<!--                    android:focusableInTouchMode="false"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/et_lebar"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="@dimen/_35sdp"-->
+<!--                    android:layout_marginStart="@dimen/_8sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@drawable/bg_text_input"-->
+<!--                    android:fontFamily="@font/poppins_regular"-->
+<!--                    android:imeOptions="actionNext"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                    android:paddingVertical="@dimen/_10sdp"-->
+<!--                    android:textColor="@color/grey_sub"-->
+<!--                    android:textColorHint="@color/grey_sub"-->
+<!--                    android:textSize="@dimen/_10sdp"-->
+<!--                    android:focusable="false"-->
+<!--                    android:focusableInTouchMode="false"/>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_panjang"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_8sdp"-->
+<!--                android:orientation="horizontal"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/lay_luas_lebar">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/et_panjang"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="@dimen/_35sdp"-->
+<!--                    android:layout_marginEnd="@dimen/_8sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@drawable/bg_text_input"-->
+<!--                    android:fontFamily="@font/poppins_regular"-->
+<!--                    android:imeOptions="actionNext"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                    android:paddingVertical="@dimen/_10sdp"-->
+<!--                    android:textColor="@color/grey_sub"-->
+<!--                    android:textColorHint="@color/grey_sub"-->
+<!--                    android:textSize="@dimen/_10sdp"-->
+<!--                    android:focusable="false"-->
+<!--                    android:focusableInTouchMode="false"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/et_null"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="@dimen/_35sdp"-->
+<!--                    android:layout_marginStart="@dimen/_8sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@android:color/transparent"-->
+<!--                    android:enabled="false"-->
+<!--                    android:focusable="false"-->
+<!--                    android:focusableInTouchMode="false"-->
+<!--                    android:fontFamily="@font/poppins_regular"-->
+<!--                    android:imeOptions="actionNext"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                    android:paddingVertical="@dimen/_10sdp"-->
+<!--                    android:textColor="@color/grey_sub"-->
+<!--                    android:textColorHint="@color/grey_sub"-->
+<!--                    android:textSize="@dimen/_10sdp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/luas_bangunan"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_10sdp"-->
+<!--                android:fontFamily="@font/poppins_regular"-->
+<!--                android:text="@string/luas_bangunan"-->
+<!--                android:textColor="@color/semi_black"-->
+<!--                android:textSize="@dimen/_10sdp"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/lay_panjang" />-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_luas_bangunan"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_5sdp"-->
+<!--                android:orientation="horizontal"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/luas_bangunan">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/et_luas_bangunan"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="@dimen/_35sdp"-->
+<!--                    android:layout_marginEnd="@dimen/_8sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@drawable/bg_text_input"-->
+<!--                    android:fontFamily="@font/poppins_regular"-->
+<!--                    android:imeOptions="actionNext"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                    android:paddingVertical="@dimen/_10sdp"-->
+<!--                    android:textColor="@color/grey_sub"-->
+<!--                    android:textColorHint="@color/grey_sub"-->
+<!--                    android:textSize="@dimen/_10sdp"-->
+<!--                    android:focusable="false"-->
+<!--                    android:focusableInTouchMode="false"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/et_lebar_bangunan"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="@dimen/_35sdp"-->
+<!--                    android:layout_marginStart="@dimen/_8sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@drawable/bg_text_input"-->
+<!--                    android:fontFamily="@font/poppins_regular"-->
+<!--                    android:imeOptions="actionNext"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                    android:paddingVertical="@dimen/_10sdp"-->
+<!--                    android:textColor="@color/grey_sub"-->
+<!--                    android:textColorHint="@color/grey_sub"-->
+<!--                    android:textSize="@dimen/_10sdp"-->
+<!--                    android:focusable="false"-->
+<!--                    android:focusableInTouchMode="false"/>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/lay_panjang_bangunan"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginHorizontal="@dimen/_15sdp"-->
+<!--                android:layout_marginTop="@dimen/_8sdp"-->
+<!--                android:paddingBottom="@dimen/_20sdp"-->
+<!--                android:orientation="horizontal"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/lay_luas_bangunan">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/et_panjang_bangunan"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="@dimen/_35sdp"-->
+<!--                    android:layout_marginEnd="@dimen/_8sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@drawable/bg_text_input"-->
+<!--                    android:fontFamily="@font/poppins_regular"-->
+<!--                    android:imeOptions="actionNext"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                    android:paddingVertical="@dimen/_10sdp"-->
+<!--                    android:textColor="@color/grey_sub"-->
+<!--                    android:textColorHint="@color/grey_sub"-->
+<!--                    android:textSize="@dimen/_10sdp"-->
+<!--                    android:focusable="false"-->
+<!--                    android:focusableInTouchMode="false"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/et_null_bangunan"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="@dimen/_35sdp"-->
+<!--                    android:layout_marginStart="@dimen/_8sdp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@android:color/transparent"-->
+<!--                    android:enabled="false"-->
+<!--                    android:focusable="false"-->
+<!--                    android:focusableInTouchMode="false"-->
+<!--                    android:fontFamily="@font/poppins_regular"-->
+<!--                    android:imeOptions="actionNext"-->
+<!--                    android:inputType="text"-->
+<!--                    android:paddingHorizontal="@dimen/_15sdp"-->
+<!--                    android:paddingVertical="@dimen/_10sdp"-->
+<!--                    android:textColor="@color/grey_sub"-->
+<!--                    android:textColorHint="@color/grey_sub"-->
+<!--                    android:textSize="@dimen/_10sdp" />-->
+
+<!--            </LinearLayout>-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

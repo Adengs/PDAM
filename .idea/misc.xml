@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable-v24/bg_btn.xml" value="0.19444444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable-v24/ic_back.xml" value="0.2111111111111111" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable-v24/icn_btn.xml" value="0.2111111111111111" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable-v24/icn_delete_white.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable-xxhdpi/bg_dialog.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/bg_dialog.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/bg_edittext.xml" value="0.2421875" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/bg_profile.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/bg_status_home.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/bg_text_input.xml" value="0.5" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/card_history.xml" value="0.181640625" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/card_info_cust.xml" value="0.181640625" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/card_info_pdam.xml" value="0.181640625" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/card_new_installation.xml" value="0.181640625" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/card_read_meter.xml" value="0.181640625" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/checked.xml" value="0.19444444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/custom_checkbox.xml" value="0.19444444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/ic_camera.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/ic_cancel_bg.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/ic_frame_102.xml" value="0.14583333333333334" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/ic_frame_167.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/ic_info_cust.xml" value="0.181640625" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/ic_logout_bg.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/line_view_white.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/notification.xml" value="0.13819444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/drawable/unchecked.xml" value="0.19444444444444445" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_baca_meter.xml" value="0.2" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_change_password.xml" value="0.22" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_change_password_success.xml" value="0.17" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_choose_golongan.xml" value="0.11875" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_choose_kabupaten.xml" value="0.17" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_choose_kecamatan.xml" value="0.1125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_choose_province.xml" value="0.21" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_choose_sertifikat.xml" value="0.1125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_choose_ukuran.xml" value="0.11875" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_customer_information.xml" value="0.16953125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_customer_information_detail.xml" value="0.2" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_ecomplain.xml" value="0.22" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_edit_profile.xml" value="0.22" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_email_verification.xml" value="0.2222222222222222" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_forgot_password.xml" value="0.2" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_history.xml" value="0.21" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_history_detail.xml" value="0.16953125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_name_customer.xml" value="0.2" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_new_installation.xml" value="0.22" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_pdam_information.xml" value="0.22" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_pdam_information_detail.xml" value="0.21" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_read_meter_finished.xml" value="0.16953125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_read_meter_not_finished.xml" value="0.22" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_set_password.xml" value="0.18" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_splash_screen.xml" value="0.1574074074074074" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/activity_verification_success.xml" value="0.16" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/dialog_logout.xml" value="0.25" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/fragment_account.xml" value="0.21354166666666666" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/fragment_history.xml" value="0.21354166666666666" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/fragment_notification.xml" value="0.21354166666666666" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_customer.xml" value="0.21" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_finished.xml" value="0.21" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_foto_location.xml" value="0.5" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_foto_location_finished.xml" value="0.1125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_foto_location_not_finished.xml" value="0.17" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_foto_meter.xml" value="0.17" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_foto_meter_finished.xml" value="0.1125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_foto_meter_not_finished.xml" value="0.16953125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_golongan.xml" value="0.14" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_history.xml" value="0.21" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_history_payment.xml" value="0.21" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_info_pdam.xml" value="0.25" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_kabupaten.xml" value="0.1125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_kecamatan.xml" value="0.1125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_last_history.xml" value="0.25" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_name_cust.xml" value="0.25" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_not_finished.xml" value="0.25" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_notifikasi.xml" value="0.25" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_provinsi.xml" value="0.21" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_sertifikat.xml" value="0.1125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/item_ukuran.xml" value="0.22" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/layout/logout_dialog.xml" value="0.1125" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/menu/bottom_navigation.xml" value="0.2222222222222222" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13472222222222222" />
+        <entry key="..\:/Adeng/PDAM/app/src/main/res/mipmap-anydpi-v26/ic_pdam.xml" value="0.13472222222222222" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

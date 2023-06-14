@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">PDAM</string>
+
+    <!--    login-->
+    <string name="welcome">Selamat Datang</string>
+    <string name="login_account">Masuk ke akun Anda</string>
+    <string name="username">Username</string>
+    <string name="password">Kata sandi</string>
+    <string name="remember_me">Ingat saya</string>
+    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="login">Masuk</string>
+    <string name="newpass">Kata sandi baru</string>
+    <string name="conpass">Konfirmasi kata sandi baru</string>
+    <string name="text_newpass">Masukkan kata sandi baru anda.</string>
+    <string name="old_password">Kata Sandi Lama</string>
+    <string name="new_password">Kata Sandi Baru</string>
+    <string name="verifikasi">Verifikasi</string>
+    <string name="input_verifikasi">Masukan Nomor Verifikasi</string>
+    <string name="send_verif_email">Kami akan mengirimkan kode verifikasi melalui email, silahkan masukan alamat email anda.</string>
+    <string name="send_verif_email2">Masukan kode verifikasi yang kami kirimkan ke email anda.</string>
+    <string name="nohave_code">Jika belum menerima kode?  </string>
+    <string name="wrong_code">Kode verifikasi yang anda masukan salah</string>
+    <string name="resend_code">Kirim ulang</string>
+    <string name="success_msg">Selamat, perubahan kata sandi anda berhasil. Silahkan login kembali</string>
+    <string name="success_msg2">Selamat, Password Anda Sudah Terganti. Silahkan login kembali</string>
+    <string name="finish">Selesai</string>
+    <string name="not_finish">Belum Selesai</string>
+    <string name="success">Sukses</string>
+
+
+    <string name="home">Home</string>
+    <string name="notif">Notifikasi</string>
+    <string name="account">Profile</string>
+
+    <string name="input_username">Masukkan username</string>
+    <string name="input_password">Masukkan password</string>
+
+    <string name="forgot_password2">Lupa kata sandi</string>
+    <string name="input_new_password">Masukkan password</string>
+    <string name="email">Email</string>
+    <string name="input_email">Masukkan email</string>
+    <string name="send">Kirim</string>
+    <string name="save_change">Simpan</string>
+    <string name="teknisi">Teknisi Lapangan</string>
+    <string name="read_meter">Baca Meter</string>
+    <string name="new_installation">Pasang Baru</string>
+    <string name="ecomplain">E-Complain</string>
+    <string name="history">Riwayat</string>
+    <string name="PDAM_info">Info PDAM</string>
+    <string name="cust_info">Info Pelanggan</string>
+    <string name="PDAM_information">Informasi PDAM</string>
+    <string name="cust_information">Informasi Pelanggan</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="kategori">Kategori</string>
+    <string name="last_history">Riwayat Terakhir</string>
+    <string name="name_cust">Name Cust</string>
+    <string name="location">Lokasi</string>
+    <string name="selesai">Selesai</string>
+    <string name="sudah">Sudah bayar</string>
+    <string name="belum">Belum bayar</string>
+    <string name="profile">Profile</string>
+    <string name="history_payment">Riwayat Pembayaran</string>
+
+    <string name="email_examples">georgia.young@example.com</string>
+    <string name="phone_examples">(62) 555-0103</string>
+    <string name="id_examples">258695656</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Ganti Kata Sandi</string>
+    <string name="logout">Keluar</string>
+
+    <string name="name">Nama</string>
+    <string name="phone">Nomor Telepon</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="name_customer">Nama Pelanggan</string>
+    <string name="subject">Subject</string>
+    <string name="desc">Deskripsi Keluhan</string>
+    <string name="customer">Pelanggan</string>
+    <string name="search">Cari</string>
+    <string name="customer_data">Data Pelanggan</string>
+    <string name="date_regist">Tanggal Registrasi</string>
+    <string name="customer_address">Alamat Pelanggan</string>
+    <string name="customer_contact">Kontak Pelanggan</string>
+    <string name="golongan_meter">Golongan Pelanggan</string>
+    <string name="ukuran_meter">Ukuran Stand Meter</string>
+    <string name="pilih_golongan_meter">Pilih golongan pelanggan</string>
+    <string name="pilih_ukuran_meter">Pilih ukuran stand meter</string>
+
+    <!--    lokasi installasi baru-->
+    <string name="province">Provinsi</string>
+    <string name="kabupaten">Kabupaten</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="sertifikat">Sertifikat</string>
+    <string name="location_new_installation">Lokasi Pasang Baru</string>
+    <string name="choose_province">Provinsi</string>
+    <string name="choose_kabupaten">Kabupaten</string>
+    <string name="choose_kecamatan">Kecamatan</string>
+    <string name="pos_code">Kode Pos</string>
+    <string name="addresses">Alamat Lengkap</string>
+    <string name="status_tanah">Status Tanah</string>
+    <string name="pilih_status_tanah">Pilih Status Tanah</string>
+    <string name="luas_tanah">Luas Tanah</string>
+    <string name="input_luas">Input Luas (m2)</string>
+    <string name="satuan_luas">(m2)</string>
+    <string name="input_panjang">Input Panjang (m)</string>
+    <string name="satuan_panjang_lebar">(m)</string>
+    <string name="input_lebar">Input Lebar (m)</string>
+    <string name="luas_bangunan">Luas Bangunan</string>
+    <string name="kepemilikan">Kepemilikan</string>
+    <string name="ktp">KTP File</string>
+    <string name="ktp_upload">Upload KTP</string>
+    <string name="ksk">KSK File</string>
+    <string name="ksk_upload">Upload KSK</string>
+    <string name="pbb">PBB File</string>
+    <string name="pbb_upload">Upload PBB</string>
+    <string name="akun_listrik">Akun Listrik</string>
+    <string name="akun_listrik_upload">Upload Akun Listrik</string>
+    <string name="NIK">NIK</string>
+    <string name="sertifikat_upload">Upload Sertifikat</string>
+
+    <string name="upload_image">Unggah Foto</string>
+    <string name="stand_meter">Stand Meter</string>
+    <string name="penggunaan">Penggunaan</string>
+    <string name="penggunaan_meter">Penggunaan Stand Meter</string>
+    <string name="last_meter">Nomor Meteran Terakhir</string>
+    <string name="now_meter">Nomor Meteran Saat Ini</string>
+    <string name="tagihan">Jumlah Tagihan</string>
+    <string name="note">Catatan (Opsional)</string>
+
+    <!--    <string name="resend_code">Saya tidak menerima kode. <font color="#42A5F5">Kirim ulang</font></string>-->
+
+    <string name="set_password">Set Password</string>
+
+    <string name="con_password">Konfirmasi Password</string>
+    <string name="verif_code">Kode Verifikasi</string>
+    <string name="input_verif_code">Masukkan kode verifikasi</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+
+    <string name="bank_account">Akun Bank</string>
+    <string name="bank_account_name">Nama Pemilik Rekening</string>
+    <string name="no_rekening">Nomor Rekening</string>
+    <string name="location_installation">Lokasi Instalasi</string>
+
+    <string name="text_logout">Apakah Anda Yakin Ingin Keluar ?</string>
+    <string name="cancel">Batalkan</string>
+
+    <string name="no_arus">Nomor Pengukur Arus</string>
+    <string name="usage_time">Waktu Penggunaan</string>
+    <string name="total">Total Tagihan</string>
+    <string name="input_meter">Masukkan penggunaan stand meter</string>
+    <string name="input_last_meter">Masukkan nomor meter saat ini</string>
+    <string name="input_name_cust">Masukkan nama pelanggan</string>
+    <string name="input_address">Masukkan alamat pelanggan</string>
+    <string name="input_contact">Masukkan kontak pelanggan</string>
+    <string name="input_postal">Masukkan kode pos</string>
+    <string name="input_addresses">Masukkan alamat lengkap</string>
+    <string name="input_nik">Masukkan NIK</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
